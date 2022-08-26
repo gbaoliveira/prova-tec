@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Trabalho-Tec</title>
+</head>
+<body>
+
+  <header>
+    <p id="top">Calculadora de Índice de Massa Corporal</p>
+  </header>
+
+  <section>
+    <div class="div1">
+      <div class="container">
+        <center><p style="font-family: 'Nunito', sans-serif;">Altura(ex:1.70)</p></center>
+      <center><input id="m" type="text" placeholder="Metros"></center>
+      <center><p style="font-family: 'Nunito', sans-serif;">Peso(ex:65.2)</p></center>
+      <center><input id="q" type="text" placeholder="Quilos"></center>
+
+      <center><button type="button" style="font-family: 'Nunito', sans-serif;" class="botoes" id="convert">Calcular</button></center>
+      <center><button class="botoes" style="font-family: 'Nunito', sans-serif;" id="clear">Limpar</button></center>
+
+      <center><input id="result" type="text" placeholder="IMC" readonly></center>
+    </div>
+  </div>
+  <script src="js/script.js"></script> 
+  </section>
+
+  <br>
+  <center><table>
+    <tr>
+      <th>IMC</th>
+      <th>CLASSIFICAÇÂO</th>
+      <th>Obesidade</th>
+    </tr>
+    <tr>
+      <td>MENOR QUE 18.5</td>
+      <td>MAGREZA</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ENTRE 18.5 E 24.9</td>
+      <td>NORMAL</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ENTRE 25.0 E 29.9</td>
+      <td>SOBREPESO</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>ENTRE 30.0 E 39.9</td>
+      <td>OBESIDADE</td>
+      <td>II</td>
+    </tr>
+    <tr>
+      <td>MAIOR QUE 40.0</td>
+      <td>OBESIDADE GRAVE</td>
+      <td>III</td>
+    </tr>
+  </table>
+  </center>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p id="bottom" style="font-family: 'Nunito', sans-serif;">Gabriel Antônio 2B<br>Sesi Senai, Escola técnica<br>SC-401, 3730<br>(48) 3239-5800</p>
+
+  </footer>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</body>
+</html>

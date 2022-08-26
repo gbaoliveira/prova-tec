@@ -1,0 +1,101 @@
+html,body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+
+      
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  margin: 0;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(45, 97, 238);
+}
+
+section{
+  flex: 1 0 auto;
+}
+
+footer{
+  background-color: rgb(46, 46, 46)
+}
+
+#bottom{
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+#top{
+  margin-left: 5px;
+}
+
+.div1{
+  margin-top: 120px;
+}
+
+#clear{
+  height: 50px;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 135px;
+  border: rgb(207, 204, 0);
+  border-style: solid;
+  background-color: rgb(238, 227, 81);
+  color: white;
+  margin-top: 10px;
+}
+
+#convert{
+  height: 50px;
+  border-radius: 5px;
+  border-width: 2px;
+  width: 135px;
+  border: rgb(7, 12, 73);
+  border-style: solid;
+  background-color: rgb(17, 11, 109);
+  color: white;
+  margin-top: 10px;
+}
+
+.container{
+  padding: 10px;
+  margin: auto;
+  max-width: 600px;
+  border: rgb(32, 82, 175);
+  border-width: medium;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+#m, #q, #result{
+  height: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  width: 135px;
+  border: rgb(27, 72, 155);
+  border-style: solid;
+  text-align: center; 
+}
+
+table, th, td {
+  border:1px solid rgb(27, 72, 155);
+  font-family: 'Nunito', sans-serif;
+}
+
+table{
+  width: 500px;
+  text-align: center;
+}
+
+#result{
+  margin-top: 10px;
+}
